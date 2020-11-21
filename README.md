@@ -1,6 +1,6 @@
-I2C master	: Hardware design of I2C master controller  
-Release		: 0.0 
-Date		: 2020-11-21  
+I2C master	: Hardware design of I2C master controller   
+Release		: 0.0   
+Date		: 2020-11-21    
 
 General Description
 --------------------------------------------------------------------------
@@ -20,9 +20,8 @@ General Description
 * Block diagram: 
   - DOC/top_bd.pdf
 
-* State transition diagram of the FSM design: 
-  - DOC/i2c_master_fsm.pdf
-  ![I2C Master FSM](/DOC/i2c_master_fsm.png)
+* State transition diagram of the FSM design:   
+  ![I2C Master FSM](/DOC/i2c_master-fsm.png)
 
 Hardware
 --------------------------------------------------------------------------
