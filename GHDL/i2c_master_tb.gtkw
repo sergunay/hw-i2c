@@ -1,0 +1,45 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Sat Nov 14 21:55:37 2020
+[*]
+[dumpfile] "/home/serg/ws/eda/i2c_ctrl/GHDL/sim/i2c_master_tb.ghw"
+[dumpfile_mtime] "Sat Nov 14 21:49:15 2020"
+[dumpfile_size] 7464589
+[savefile] "/home/serg/ws/eda/i2c_ctrl/GHDL/wave.gtkw"
+[timestart] 10700000000
+[size] 932 1016
+[pos] 881 -51
+*-34.000000 30620000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.i2c_master_tb.
+[sst_width] 233
+[signals_width] 252
+[sst_expanded] 1
+[sst_vpaned_height] 292
+@420
+top.i2c_master_tb.phase
+@28
+top.i2c_master_tb.sim_clk
+top.i2c_master_tb.i2c_start
+top.i2c_master_tb.sim_ack
+top.i2c_master_tb.i2c_start
+top.i2c_master_tb.i2c_stop
+@420
+top.i2c_master_tb.bit_cnt
+@22
+#{top.i2c_master_tb.i2c_listen_data[7:0]} top.i2c_master_tb.i2c_listen_data[7] top.i2c_master_tb.i2c_listen_data[6] top.i2c_master_tb.i2c_listen_data[5] top.i2c_master_tb.i2c_listen_data[4] top.i2c_master_tb.i2c_listen_data[3] top.i2c_master_tb.i2c_listen_data[2] top.i2c_master_tb.i2c_listen_data[1] top.i2c_master_tb.i2c_listen_data[0]
+#{top.i2c_master_tb.sim_data[7:0]} top.i2c_master_tb.sim_data[7] top.i2c_master_tb.sim_data[6] top.i2c_master_tb.sim_data[5] top.i2c_master_tb.sim_data[4] top.i2c_master_tb.sim_data[3] top.i2c_master_tb.sim_data[2] top.i2c_master_tb.sim_data[1] top.i2c_master_tb.sim_data[0]
+@420
+>-188000000000
+top.i2c_master_tb.dut.state_reg
+>0
+top.i2c_master_tb.dut.state_reg
+@28
+top.i2c_master_tb.scl_line
+top.i2c_master_tb.sda_line
+top.i2c_master_tb.dut.scl_mid
+top.i2c_master_tb.dut.ack_received_flag
+@29
+top.i2c_master_tb.dut.sda_tick
+[pattern_trace] 1
+[pattern_trace] 0

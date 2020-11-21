@@ -1,0 +1,41 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Thu Nov 19 20:24:03 2020
+[*]
+[dumpfile] "/home/serg/ws/eda/i2c_ctrl/GHDL/sim/top_tb_eeprom.ghw"
+[dumpfile_mtime] "Wed Nov 18 20:30:03 2020"
+[dumpfile_size] 851084
+[savefile] "/home/serg/ws/eda/i2c_ctrl/GHDL/top_eeprom.gtkw"
+[timestart] 0
+[size] 1864 1016
+[pos] -101 -101
+*-35.000000 125015000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.top_tb_eeprom.
+[treeopen] top.top_tb_eeprom.dut.
+[treeopen] top.top_tb_eeprom.i_eeprom.
+[sst_width] 233
+[signals_width] 217
+[sst_expanded] 1
+[sst_vpaned_height] 289
+@28
+top.top_tb_eeprom.sim_clk
+top.top_tb_eeprom.top_scl
+top.top_tb_eeprom.top_sda
+@420
+top.top_tb_eeprom.i_eeprom.this_state
+@28
+top.top_tb_eeprom.i_eeprom.device_sel
+top.top_tb_eeprom.i_eeprom.start_det
+top.top_tb_eeprom.i_eeprom.stop_det
+top.top_tb_eeprom.i_eeprom.rd_mode
+@420
+top.top_tb_eeprom.i_eeprom.mem_addr
+top.top_tb_eeprom.i_eeprom.bit_ptr
+@200
+-
+@420
+top.top_tb_eeprom.dut.i_i2c_master.state_reg
+top.top_tb_eeprom.dut.i_i2c_ctrl.state_reg
+[pattern_trace] 1
+[pattern_trace] 0
