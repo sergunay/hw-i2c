@@ -48,7 +48,7 @@ RTL simulation:
     run -all
 
       In this testbench, different scenarios is tested. The expected output:
- 
+``` 
        # ** Note: Start is detected
        #    Time: 5155 ns  Iteration: 4  Instance: /i2c_master_tb
        # ** Note: Data = 0x34
@@ -69,6 +69,7 @@ RTL simulation:
        #    Time: 197155 ns  Iteration: 4  Instance: /i2c_master_tb
        # ** Note: ERROR = 0x010
        #    Time: 494115 ns  Iteration: 3  Instance: /i2c_master_tb
+```
 
   - For the unit test of i2c_ctrl, open I2C_CTRL simulation configuration.
     run -all
@@ -94,7 +95,7 @@ Synthesis
   - source ../TCL/build.tcl
 
 * Resource utilization:
-
+```
   +-------------------------+------+-------+-----------+-------+
   |        Site Type        | Used | Fixed | Available | Util% |
   +-------------------------+------+-------+-----------+-------+
@@ -107,15 +108,16 @@ Synthesis
   | F7 Muxes                |    0 |     0 |     16300 |  0.00 |
   | F8 Muxes                |    0 |     0 |      8150 |  0.00 |
   +-------------------------+------+-------+-----------+-------+
-  
+```
 * Timing:
-  
+```  
   Clock        Waveform(ns)       Period(ns)      Frequency(MHz)
   -----        ------------       ----------      --------------
   sys_clk_pin  {0.000 41.660}     83.330          12.000          
   
   
   Slack (MET) :             79.075ns  (required time - arrival time)
+```
 
 Programming the FPGA
 --------------------------------------------------------------------------
@@ -136,12 +138,13 @@ Verification
     receiver using wire library.
   
   - Connections: 
+  ```
       Arduino	      CMOD_A7
       -------         -------
         20            48       SDA
         21            47       SCL 
         GND           GND
-  
+  ```
   - Run arduino slave receiver code in:
     ARDUINO/slave_receiver/slave_receiver.ino
   
